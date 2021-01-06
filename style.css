@@ -1,0 +1,99 @@
+/*
+Theme Name: Nhóm 4
+Theme URI: https://wordpress.org/themes/nhom-4
+Author: NHÓM 4
+Author URI: https://wordpress.org/themes/nhom-4
+Description: https://wordpress.org/themes/nhom-4 Nhóm 4.
+Requires PHP: 5.2.4
+Version: 1.0.1
+*/
+.custom-logo{
+    width: 100%;
+    height: 100%;
+}
+.box-logo{
+    width: 100%;
+    height: 100px;
+}
+#topbar{
+    background: #23282d;
+    color: #ccc;
+    padding: 15px;
+}
+.logo-banner .logo{
+    width: 100%;
+}
+.img-banner{
+    line-height: 100px;
+}
+.img-banner img{
+    height: 80px;
+    
+}
+footer{
+    padding: 20px 0;
+}
+footer ul{
+    padding: 0px;
+}
+footer ul li{
+    color: #288ad6;
+    list-style: none;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+}
+footer ul li p{
+    margin-bottom: 0px;
+}
+.footer-bootom{
+    padding: 10px 0;
+    background: #f1f1f1;
+    font-size: 10px;
+    color: #999;
+}
+.item-product-thumnail{
+    display: block;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    position: relative;
+}
+.item-product-thumnail img{
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 768px){
+    #topbar{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        width: 50% !important;
+    }
+    .img-banner{
+        display: none;
+    }
+    .box-logo{
+        text-align: center;
+    }
+}
+@media (min-width: 768px){
+    .col-md-3 {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    }
+    .box-logo{
+        text-align: center;
+    }
+}
